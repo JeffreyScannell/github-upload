@@ -1,0 +1,175 @@
+body {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    line-height: 1.4em;
+
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    padding-top: 60px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 60px;
+    background-color: #f4f4f4;
+}
+
+.h3-sidebar {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+a {
+    color: black;
+}
+
+.heading {
+    border-bottom: .5px #ccc solid;
+    padding-bottom: 30px;
+
+}
+
+.heading-title-box {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.heading-name {
+    font-size: 60px;
+    font-weight: normal;
+    line-height: 1.4em;
+    margin-top: auto;
+    margin-bottom: 0px;
+}
+
+.heading-title {
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: -5px;
+    padding-bottom: 10px;
+}
+
+.info-title {
+    font-weight: normal;
+    margin-bottom: -15px;
+    font-size: 16px;
+    text-transform: none;
+    line-height: 1.2em;
+}
+
+.info-title-town {
+    font-weight: normal;
+    margin-bottom: -15px;
+    font-size: 16px;
+    text-transform: none;
+    line-height: 1.2em;
+    margin-top: 0px;
+}
+
+.about {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 130px 1fr;
+    border-bottom: .5px #ccc solid;
+
+}
+
+.about p {
+    padding-left: 25px;
+}
+
+.certs {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 130px 1fr;
+    border-bottom: .5px #ccc solid;
+}
+
+.skills {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 130px 1fr;
+    border-bottom: .5px #ccc solid;
+}
+
+.skills-ul {
+    display: inline-block;
+
+}
+
+.experience {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 130px 1fr;
+    border-bottom: .5px #ccc solid;
+}
+
+.job {
+    border-bottom: .5px #ccc solid;
+
+}
+
+.h3-job-title {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 25px;
+    margin-bottom: 3px;
+    line-height: 1em;
+    font-weight:lighter;
+    font-size: 18px;
+}
+
+.job-header {
+    line-height: 1em;
+
+}
+
+.h3-job {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 25px;
+    margin-bottom: 3px;
+    line-height: 1em;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.h3-job-company {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 25px;
+    margin-bottom: 5px;
+    font-weight: normal;
+    margin-top: 2px;
+    font-size: 15px;
+    color:dimgray;
+}
+
+.h4-job-date {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 25px;
+    font-weight: normal;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    font-size: 15px;
+    color:dimgray;
+}
+
+.h4-job-location {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 25px;
+    font-weight: normal;
+    margin-top: 5px;
+    font-size: 15px;
+    color:dimgray;
+}
+
+.skills-list li {
+    display: flexbox;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 60px;
+}
