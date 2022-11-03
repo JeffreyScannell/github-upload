@@ -9,7 +9,9 @@
                         'skills' auto
                         'skillslist' 1fr 
                         'experience' auto
-                        'experiencelist' 1fr 
+                        'experiencelist' 1fr
+                        'projects' auto
+                        'projectslist' 1fr
                         'footer' auto;
     
     min-height: 100vh;
@@ -35,7 +37,9 @@
                             'skills' auto
                             'skillslist' 1fr 
                             'experience' auto
-                            'experiencelist' 1fr 
+                            'experiencelist' 1fr
+                            'projects' auto
+                            'projectslist' 1fr 
                             'footer' auto;
     }
 
@@ -79,12 +83,21 @@ h2 {
 
 h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: normal;
+    padding-left: 25px;
+    margin-bottom: 3px;
+    line-height: 1em;
+    font-weight:lighter;
+    font-size: 18px;
 }
 
 h4 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: lighter;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 25px;
+    font-weight: normal;
+    margin-bottom: -4px;
+    margin-top: 3px;
+    font-size: 15px;
+    color:dimgray;
 }
 
 info {
@@ -121,19 +134,17 @@ skillslist {
     border-bottom: .5px #ccc solid;
 }
 
+projects {
+    border-bottom: .5px #ccc solid;
+}
+
+projectslist {
+    border-bottom: .5px #ccc solid;
+}
+
 .job {
     border-bottom: .5px #ccc solid;
 
-}
-
-.h3-job-title {
-
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-left: 25px;
-    margin-bottom: 3px;
-    line-height: 1em;
-    font-weight:lighter;
-    font-size: 18px;
 }
 
 .job-header {
@@ -160,12 +171,21 @@ skillslist {
     color:dimgray;
 }
 
+.h3-job-title {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 25px;
+    line-height: 1em;
+    font-weight:lighter;
+    font-size: 18px;
+}
+
 .h4-job-date {
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     padding-left: 25px;
     font-weight: normal;
-    margin-bottom: 0px;
-    margin-top: 5px;
+    line-height: 1.2;
+    margin-top: 2px;
     font-size: 15px;
     color:dimgray;
 }
@@ -176,6 +196,7 @@ skillslist {
     font-weight: normal;
     margin-top: 5px;
     font-size: 15px;
+    line-height: 1.2;
     color:dimgray;
 }
 
