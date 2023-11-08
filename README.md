@@ -1,4 +1,4 @@
-# My Cloud Resume Challange Front-end Code
+# My Cloud Resume Challenge Front-end Code
 
 ## Project to create and host my resume in the cloud
 
