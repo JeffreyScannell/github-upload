@@ -13,7 +13,7 @@ This is my repository for the front-end code built as part of the <a href="https
 ## Resume Properties
 
 * Uses CSS grid for the page layout so it can be comfortably viewed in desktop or mobile browsers
-* Javascript increments and displays visitor count using API Gateway/Lambda/DynamoDB (I needed a lot of help with javascript and admittedly not exactly sure how it works so I need to study it more)
+* Javascript increments and displays visitor count using API Gateway/Lambda/DynamoDB
 
 ## To-do
 
